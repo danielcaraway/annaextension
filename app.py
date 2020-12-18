@@ -92,7 +92,9 @@ def get_ingredients_flask(my_input):
         x, shopping_list) for x in results_flattened]
     # for site in not_working:
     # print('So sorry, working on getting info from', site)
-    return shopping_list
+    shopping_list_array = ["{}: {}".format(
+        k, v) for k, v in shopping_list.items()]
+    return shopping_list_array
 
 
 def run_the_thing(input):

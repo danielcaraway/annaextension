@@ -6,6 +6,8 @@
 
 {% block body %}
 
-{{ passed }}
+{% for ingredient in passed %}
+  <li>{{ingredient}}</li>
+{% endfor %}
 
 {% endblock %}
