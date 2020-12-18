@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<h1>Anna Extension</h1>
+<h3>Add links to your recipe pages here:</h3>
+<p>(Just copy and paste the url!)</p>
+{% endblock %}
+
+{% block body %}
+
+<form actions="/" method="POST">
+    <input type="text" name="content" id="content" value="cats">
+    <input type="submit" value="Get Ingredients">
+</form>
+
+{% endblock %}

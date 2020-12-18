@@ -43,3 +43,7 @@ if __name__ == "__main__":
    5. `pip3 freeze > requirements.txt`
    6. `heroku create amazing-app-name`
    7. `git add . && git commit -m "FLASK PARTY" && git push heroku master`
+
+
+4. Now add all the cool python stuff
+   1. `pip3 install beautifulsoup4 pandas requests`
