@@ -97,7 +97,9 @@ def get_ingredients_flask(my_input):
 
 def run_the_thing(input):
     try:
-        recipe_links = json.loads(input)
+        # recipe_links = json.loads(input)
+        print(input)
+        recipe_links = input.split(',')
         return get_ingredients_flask(recipe_links)
     except:
         return "Oh shoot! Something is broken! "
