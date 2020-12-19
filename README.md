@@ -1,5 +1,9 @@
 ## README
 
+to run: 
+`source v-env/bin/activate`
+`python app.py`
+
 ### IMPETUS:
 I want a consolidated shopping list
 

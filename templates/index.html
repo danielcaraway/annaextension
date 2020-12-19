@@ -2,14 +2,23 @@
 
 {% block head %}
 <h1>Anna Extension</h1>
+
+<p>Currently Working For:</p>
+<li><a href="https://www.skinnytaste.com/">skinnytaste</a></li>
+<li><a href="https://minimalistbaker.com/">minimalistbaker</a></li>
+<li><a href="https://www.twopeasandtheirpod.com/">twopeasandtheirpod</a></li>
+<li><a href="https://thedefineddish.com/">thedefineddish</a></li>
+<li><a href="https://www.ambitiouskitchen.com/">ambitiouskitchen</a></li>
+<li><a href="https://whatsgabycooking.com/">whatsgabycooking</a></li>
 <h3>Add links to your recipe pages here:</h3>
-<p>(Just copy and paste the url!)</p>
+<p>(Just copy and paste the urls separated by a comma!)</p>
 {% endblock %}
 
 {% block body %}
 
 <form actions="/" method="POST">
-    <input type="text" name="content" id="content" value="cats">
+    <!-- <input type="text" name="content" id="content" value="cats"> -->
+    <textarea name="content" id="content" cols="40" rows="5" placeholder="ex: https://www.twopeasandtheirpod.com/magic-cookie-bars/"></textarea>
     <input type="submit" value="Get Ingredients">
 </form>
 
